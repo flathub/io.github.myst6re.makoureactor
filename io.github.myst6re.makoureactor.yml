@@ -29,13 +29,15 @@ modules:
       - -DDOCS=OFF
     sources:
       - type: archive
-        url: https://github.com/sithlord48/ff7tk/archive/refs/tags/v0.83.2.tar.gz
-        sha256: 2e0c7bf80b4cdb1ab63bc6d971312eb3ef7ea29dc1682746386b2b0858457241
+        url: https://github.com/sithlord48/ff7tk/archive/refs/tags/v0.83.3.tar.gz
+        sha256: b3919750f422f128cf7453b7dca7aeeca50f01ab08ca52473097ab37bf528c22
         x-checker-data:
           type: json
           url: https://api.github.com/repos/sithlord48/ff7tk/tags
-          version-query: map(.name | select(test("^v[\\d\\.]+$"))) | first | sub("^v"; "")
-          url-query: '"https://github.com/sithlord48/ff7tk/archive/refs/tags/v" + $version + ".tar.gz"'
+          version-query: map(.name | select(test("^v[\\d\\.]+$"))) | first | sub("^v";
+            "")
+          url-query: '"https://github.com/sithlord48/ff7tk/archive/refs/tags/v" +
+            $version + ".tar.gz"'
 
   - name: makoureactor
     buildsystem: cmake-ninja
@@ -47,7 +49,9 @@ modules:
         x-checker-data:
           type: json
           url: https://api.github.com/repos/myst6re/makoureactor/tags
-          version-query: map(.name | select(test("^[\\d\\.]+$"))) | first | sub("^"; "")
-          url-query: '"https://github.com/myst6re/makoureactor/archive/refs/tags/" + $version + ".tar.gz"' 
+          version-query: map(.name | select(test("^[\\d\\.]+$"))) | first | sub("^";
+            "")
+          url-query: '"https://github.com/myst6re/makoureactor/archive/refs/tags/"
+            + $version + ".tar.gz"'
       - type: patch
         path: flatpakDeploy.patch
