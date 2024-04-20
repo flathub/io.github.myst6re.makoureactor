@@ -53,5 +53,3 @@ modules:
             "")
           url-query: '"https://github.com/myst6re/makoureactor/archive/refs/tags/"
             + $version + ".tar.gz"'
-      - type: patch
-        path: flatpakDeploy.patch
