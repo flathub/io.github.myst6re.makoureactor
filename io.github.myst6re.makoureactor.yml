@@ -29,8 +29,8 @@ modules:
       - -DDOCS=OFF
     sources:
       - type: archive
-        url: https://github.com/sithlord48/ff7tk/archive/refs/tags/v0.83.3.tar.gz
-        sha256: b3919750f422f128cf7453b7dca7aeeca50f01ab08ca52473097ab37bf528c22
+        url: https://github.com/sithlord48/ff7tk/archive/refs/tags/v1.0.0.tar.gz
+        sha256: 9dff11bfad31ee559d4572d6c9105273bb8ceb8b64d99e6a85149a442b7d632e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/sithlord48/ff7tk/tags
@@ -44,8 +44,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://github.com/myst6re/makoureactor/archive/refs/tags/2.0.0.tar.gz
-        sha256: 167d58cb904d3285321ba05447e9b1bacf80b87085562aafa1406d9d523721d9
+        url: https://github.com/myst6re/makoureactor/archive/refs/tags/2.1.0.tar.gz
+        sha256: 2c9b0c6fba769889b94b1832231136ee764b676619f27bc16c7b49ccb27ef16b
         x-checker-data:
           type: json
           url: https://api.github.com/repos/myst6re/makoureactor/tags
