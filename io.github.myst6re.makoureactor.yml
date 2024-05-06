@@ -29,8 +29,8 @@ modules:
       - -DDOCS=OFF
     sources:
       - type: archive
-        url: https://github.com/sithlord48/ff7tk/archive/refs/tags/v1.0.0.tar.gz
-        sha256: 9dff11bfad31ee559d4572d6c9105273bb8ceb8b64d99e6a85149a442b7d632e
+        url: https://github.com/sithlord48/ff7tk/archive/refs/tags/v1.1.0.tar.gz
+        sha256: 906b3dc94e0dff5bfa6631df808c763cb87ec577d722998150d80688fac264be
         x-checker-data:
           type: json
           url: https://api.github.com/repos/sithlord48/ff7tk/tags
