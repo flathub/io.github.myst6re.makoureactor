@@ -1,7 +1,7 @@
 app-id: io.github.myst6re.makoureactor
 runtime: org.kde.Platform
 sdk: org.kde.Sdk
-runtime-version: '6.6'
+runtime-version: '6.9'
 command: Makou_Reactor
 finish-args:
   - --filesystem=home
@@ -44,8 +44,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://github.com/myst6re/makoureactor/archive/refs/tags/2.1.0.tar.gz
-        sha256: 2c9b0c6fba769889b94b1832231136ee764b676619f27bc16c7b49ccb27ef16b
+        url: https://github.com/myst6re/makoureactor/archive/refs/tags/2.2.0.tar.gz
+        sha256: 14df1550f6284ad2d6c8db36ef9aba9b0983a226843301dd4a93f8ae294325e8
         x-checker-data:
           type: json
           url: https://api.github.com/repos/myst6re/makoureactor/tags
